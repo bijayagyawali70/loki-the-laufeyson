@@ -1,0 +1,53 @@
+h1{
+   font-size: 80px;
+   text-align: center;
+   margin: 0;
+   padding: 20px 0;
+   color: #ecba3d;
+   font-weight:bolder;
+   text-shadow:3px 3px 1px  black ;
+}
+img{
+    display: block;
+    margin: 0 auto;
+}
+
+li,p{
+    font-size: 25px;
+    line-height: 25px;
+    letter-spacing: 1px;
+     color: #e8dca2;
+}
+
+a{
+color:#99B927;
+}
+
+button{
+    font-size:32px;
+    margin:auto;
+    display: flex;
+    display: grid;
+    color:#436228;
+    font-family: 'Marvel', sans-serif;
+    font-weight: 800;
+    width: 200px; 
+    height: 50px; 
+    border-radius: 12px;
+    background-image: linear-gradient(to right,#99b927,#ecba3d);
+    border: 0ch;
+}
+body{
+    width: 800px;
+    margin: 0 auto;
+    font-size: 20px;
+    background-color: #436228;
+    padding: 0 20px 20px 20px;
+    border: 5px solid #fde581;
+    
+}
+html{
+    background-color:#99B927;
+    font-family: 'Marvel', sans-serif;
+    font-size: 20px;
+}
