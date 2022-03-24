@@ -17,7 +17,7 @@ myButton.onclick = function(){
     alert('I am Loki, of Asgard,and i am burdended with glorious purpose');
 } 
 function music(){
-var audio = new Audio("");
+var audio = new Audio("imusic/loki-sound-mp3");
   audio.play();
 }
 window.onload = music();
