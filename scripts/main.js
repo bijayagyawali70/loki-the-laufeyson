@@ -9,18 +9,19 @@ myImage.onclick = function(){
         myImage.setAttribute('src','images/loki-first-image.png');
     }
 }
-let myButton = document.querySelector('button');
+let myButton = document.getElementById('why-loki');
 //let myHeading = document.querySelector('h1');
 
 
 myButton.onclick = function(){
-    alert('I am Loki, of Asgard,and i am burdended with glorious purpose');
+    alert('I am Loki, of Asgard, and i am burdended with glorious purpose');
 } 
-function music(){
-var audio = new Audio("imusic/loki-sound-mp3");
-  audio.play();
+let myPlayButton = document.getElementById('play');
+function playMusic() {
+    var sample = document.getElementById("foobar");
+    sample.play();
 }
-window.onload = music();
+myPlayButton.onclick = playMusic;
 // this code is used for change user in h1 element
 // function setUserName(){
 //     let myName = prompt('Please enter your name.');
