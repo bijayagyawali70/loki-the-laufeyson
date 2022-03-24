@@ -15,7 +15,12 @@ let myButton = document.querySelector('button');
 
 myButton.onclick = function(){
     alert('I am Loki, of Asgard,and i am burdended with glorious purpose');
+} 
+function music(){
+var audio = new Audio("");
+  audio.play();
 }
+window.onload = music();
 // this code is used for change user in h1 element
 // function setUserName(){
 //     let myName = prompt('Please enter your name.');
